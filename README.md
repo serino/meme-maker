@@ -1,0 +1,1 @@
+This app allows the user to select an image and then add custom words to the image which in turn creates memes. The app also allows a user to select a custom font size and color.

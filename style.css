@@ -1,0 +1,26 @@
+#box {
+  width: 400px;
+  height: 400px;
+  border: solid black;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+#topParagraph,
+#bottomParagraph {
+  color: white;
+  font-size: 40px;
+  font-family: Impact;
+  text-shadow: 2px 2px black, -2px 2px black, 2px -2px black, -2px -2px black;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+#bottomParagraph {
+  position: absolute; 
+  bottom: 0px;
+  width: 100%;
+}

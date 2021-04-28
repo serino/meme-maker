@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="home.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Meme Maker</title>
+</head>
+
+
+<body>
+  <h1>Meme Maker</h1>
+
+  <div id="box">
+    <p id="topParagraph"></p>
+    <p id="bottomParagraph"></p>
+  </div>
+
+  <div>
+    <select id="imageDropdown" name="images">
+      <option value="black.jpeg">Choose an Image:</option>
+      <option value="condescending-wonka.jpeg">Condescending Wonka</option>
+      <option value="facepalm-picard.jpeg">Facepalm Picard</option>
+      <option value="skeptical-kid.jpeg">Skeptical Kid</option>
+      <option value="one-does-not-simply.jpeg">One Does Not Simply</option>
+    </select>
+    </div>
+
+  <label>Top text</label>
+  <div>
+    <input id="topText" placeholder="top text">
+    <input id="topTextSlider" type="range" min="40" max="100" value="40">
+    <input id="topTextColor" type="color">
+
+  </div>
+
+  <label>Bottom text</label>
+  <div>
+    <input id="bottomText" placeholder="bottom text">
+    <input id="bottomTextSlider"type="range" min="40" max="100" value="40">
+    <input id="bottomTextColor" type="color">
+  </div>
+</body>
+</html>
